@@ -17,7 +17,7 @@ public class CubeControl : MonoBehaviour
             transform.position += transform.forward * Time.deltaTime ;
 
         if (Input.GetKey(KeyCode.S))
-            transform.position += (new Vector3(0, -1, 0)) * Time.deltaTime;
+            transform.position += (new Vector3(0, 0, -1)) * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.A))
             transform.position += (new Vector3(-1, 0, 0)) * Time.deltaTime;
